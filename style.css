@@ -1,0 +1,47 @@
+@import url('/styles/header_nav.css');
+@import url('/styles/utils.css');
+@import url('/styles/main_body.css');
+@import url('/styles/form.css');
+@import url('./styles/variables.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+:root {
+    --primary-trans: rgba(176, 157, 123, 0.293);
+    --primary: rgb(151, 75, 54);
+    --primary-LIGHT: rgb(207, 104, 75);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courgette;
+}
+
+
+/* Header */
+.logo {
+    width: 30px;
+}
+
+#logo-title .logo {
+    width: 150px;
+}
+
+.transparent-btn {
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+}
+
+.transparent-btn:hover {
+    background-color: var(--primary-trans);
+}
+
+.icon-btn {
+    border-radius: 50%;
+}

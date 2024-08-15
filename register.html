@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AweSome Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-section actions" id="drawer-button">
+            <button class="transparent-btn icon-btn"><img class="logo" src="/assets/images/icon.png"></button>
+        </div>
+
+        <div class="header-section" id="logo-title">
+            <img class="logo" src="/assets/images/horizontal-logo.png" alt="AweSome Coffee Logo" >
+        </div>
+
+        <nav>
+            <ul id="nav-links" class="header-section">
+                <li><a href="/index.html">Dashboard</a></li>
+                <li><a href="/order.html">Order a Coffee</a></li>
+                <li><a href="/menu.html">Menu</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li class="active"><a href="">Register</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-section actions">
+            <a href="#" id="notifications"><img class="logo" src="/assets/images/icon.png"></a>
+            <a href="#" id="profile-icon"><img class="logo" src="/assets/images/icon.png"></a>
+        </div>
+    </header>
+    <nav id="nav-bar">
+        <ul id="nav-links" class="header-section">
+            <li><a href="/index.html">Dashboard</a></li>
+            <li><a href="/order.html">Order a Coffee</a></li>
+            <li><a href="/menu.html">Menu</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li class="active"><a href="">Register</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="flex-row justify-content-center">
+            <form id="register-form">
+                <h1>Register</h1>
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input class="text-field" type="text" name="username" id="username" placeholder="Enter username">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input class="text-field" password="email" name="email" id="email" placeholder="Enter email">
+                </div>
+                <div class="input-group">
+                    <label for="password">password</label>
+                    <input class="text-field" type="password" name="password" id="password" placeholder="Enter password">
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
